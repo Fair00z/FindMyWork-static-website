@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* -----------services--------------- */
+#services{
+    background-color: #F2D9CA;
+}
+.services-title{
+    margin-top: 10px;
+    color: #8E330C;
+
+}
+.service-tile{
+    /* background-color: #8E330C; */
+    background-color: #fff;
+    display: flex;
+    height: 4rem;
+    border-radius: 10px;
+
+}
+.service-tile-icon{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8E330C;
+    font-size: 1.5rem;
+}
+.service-tile-text{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #8E330C;
+    font-size: 1.5rem;
+}
+.service-tile-text p{
+    margin-top: 1rem;
+}
